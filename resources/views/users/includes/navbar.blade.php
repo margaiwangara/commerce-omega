@@ -22,27 +22,27 @@
                             </li>
                         --}}
                         <li>
-                            <a href="product.html">Home</a>
+                            <a href="{{ route('userIndex') }}">Home</a>
                         </li>
 
                         <li>
-                            <a href="product.html">Shop</a>
+                            <a href="{{ route('userProducts') }}">Shop</a>
                         </li>
 
                         <li class="label1" data-label1="hot">
-                            <a href="shoping-cart.html">Features</a>
+                            <a href="{{ route('userIndex') }}">Features</a>
                         </li>
 
                         <li>
-                            <a href="blog.html">Blog</a>
+                            <a href="{{ route('userBlog') }}">Blog</a>
                         </li>
 
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="{{ route('userAbout') }}">About</a>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="{{ route('userContact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>

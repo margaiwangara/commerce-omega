@@ -13,4 +13,32 @@
 
 Route::get('/', function () {
     return view('users.index');
-});
+})->name('userIndex');
+
+Route::get('/about', function(){
+    return view('users.about');
+})->name('userAbout');
+
+Route::get('/contact', function(){
+    return view('users.contact');
+})->name('userContact');
+
+Route::get('/products', function(){
+    return view('users.products');
+})->name('userProducts');
+
+Route::get('/products/details', function(){
+    return view('users.product-details');
+})->name('userProductDetails');
+
+Route::get('/cart', function(){
+    return view('users.cart');
+})->name('userCart');
+
+Route::get('/blog', function(){
+    return view('users.blog');
+})->name('userBlog');
+
+Route::get('/blog/details', function(){
+    return view('users.blog-details');
+})->name('userBlogDetails');

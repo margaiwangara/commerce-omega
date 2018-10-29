@@ -41,6 +41,8 @@
     {{-- section yield --}}
     @yield('content')
 	
+	{{-- footer include --}}
+	@include('users.includes.footer')
 
 	{{-- JQuery --}}
 	<script src="{{ asset('vendor/jquery/jquery-3.2.1.min.js') }}"></script>
