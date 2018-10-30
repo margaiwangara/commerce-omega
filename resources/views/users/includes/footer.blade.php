@@ -76,7 +76,7 @@
 				</p>
                 --}}
                 <p class="stext-107 cl7 size-201">
-                    Any questions? Let us know in our comment section or reach us from our <a href="#">Contact Us</a> page
+                    Any questions? Let us know in our comment section or reach us from our <a href="{{ route('userContact') }}">Contact Us</a> page
                 </p>
 				<div class="p-t-27">
 					<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
