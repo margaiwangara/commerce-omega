@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->longText('description')->nullable();
             $table->longText('add_details')->nullable();
             $table->boolean('featured',0);
+            $table->string('image','20');
             $table->decimal('price', 8, 2);
             $table->timestamps();
         });

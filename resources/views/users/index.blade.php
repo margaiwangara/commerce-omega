@@ -203,7 +203,7 @@
 									{{-- Block2 --}}
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product-0{{ $key+1 }}.jpg" alt="{{ $product->name }}">
+											<img src="images/{{ $product->image }}.jpg" alt="{{ $product->name }}">
 
 											<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 												Quick View
@@ -248,7 +248,7 @@
 									{{-- Block2 --}}
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product-0{{ $key+2 }}.jpg" alt="{{ $product->name }}">
+											<img src="images/{{ $product->image }}.jpg" alt="{{ $product->name }}">
 
 											<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 												Quick View
@@ -292,7 +292,7 @@
 									{{-- Block2 --}}
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product-0{{ $key+3 }}.jpg" alt="{{ $product->name }}">
+											<img src="images/{{ $product->image }}.jpg" alt="{{ $product->name }}">
 
 											<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 												Quick View

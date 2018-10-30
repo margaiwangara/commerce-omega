@@ -14,8 +14,8 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        $new_arrivals = Products::orderBy('id','desc')->take(6)->get();
-        $featured = Products::where('featured','1')->take(6)->get();
+        $new_arrivals = Products::orderBy('id','desc')->take(8)->get();
+        $featured = Products::where('featured','1')->take(8)->get();
         
         return view('users.index')->with(['new_arrivals' => $new_arrivals,'featured' => $featured]);
     }

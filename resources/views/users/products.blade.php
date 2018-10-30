@@ -47,7 +47,7 @@
 					</div>
 				</div>
 				
-				<!-- Search product -->
+				{{-- Search product --}}
 				<div class="dis-none panel-search w-full p-t-10 p-b-15">
 					<div class="bor8 dis-flex p-l-15">
 						<button class="size-113 flex-c-m fs-16 cl2 hov-cl1 trans-04">
@@ -58,7 +58,7 @@
 					</div>	
 				</div>
 
-				<!-- Filter -->
+				{{-- Filter --}}
 				<div class="dis-none panel-filter w-full p-t-10">
 					<div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
 						<div class="filter-col1 p-r-15 p-b-27">
@@ -250,7 +250,7 @@
 
 			<div class="row isotope-grid">
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-					<!-- Block2 -->
+					{{-- Block2 --}}
 					<div class="block2">
 						<div class="block2-pic hov-img0">
 							<img src="images/product-01.jpg" alt="IMG-PRODUCT">

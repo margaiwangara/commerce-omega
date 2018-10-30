@@ -28,15 +28,15 @@
                         <li>
                             <a href="{{ route('userProducts') }}">Shop</a>
                         </li>
-
-                        <li class="label1" data-label1="hot">
-                            <a href="{{ route('userIndex') }}">Features</a>
-                        </li>
-
-                        <li>
-                            <a href="{{ route('userBlog') }}">Blog</a>
-                        </li>
-
+                        {{--
+                            <li class="label1" data-label1="hot">
+                                <a href="{{ route('userIndex') }}">Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="{{ route('userBlog') }}">Blog</a>
+                            </li>
+                        --}}
                         <li>
                             <a href="{{ route('userAbout') }}">About</a>
                         </li>
