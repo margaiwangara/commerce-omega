@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('users.index');
-})->name('userIndex');
+Route::get('/', 'ProductsController@index')->name('userIndex');
 
 Route::get('/about', function(){
     return view('users.about');
@@ -42,3 +40,5 @@ Route::get('/blog', function(){
 Route::get('/blog/details', function(){
     return view('users.blog-details');
 })->name('userBlogDetails');
+
+Route::get('/sample', 'ProductsController@index')->name('samplepage');
