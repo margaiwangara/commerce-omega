@@ -18,6 +18,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '1',
             'image' => 'product-01',
+            'related_to' => 'women',
             'price' => '200.50'
         ]);
         Products::create([
@@ -26,6 +27,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '1',
             'image' => 'product-02',
+            'related_to' => 'women',
             'price' => '300.50'
         ]);
         Products::create([
@@ -34,6 +36,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '0',
             'image' => 'product-04',
+            'related_to' => 'women',
             'price' => '500.50'
         ]);
         Products::create([
@@ -42,6 +45,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '1',
             'image' => 'product-05',
+            'related_to' => 'women',
             'price' => '100.50'
         ]);
         Products::create([
@@ -50,6 +54,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '1',
             'image' => 'product-07',
+            'related_to' => 'women',
             'price' => '400.50'
         ]);
         Products::create([
@@ -58,6 +63,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '0',
             'image' => 'product-08',
+            'related_to' => 'women',
             'price' => '800.50'
         ]);
         Products::create([
@@ -66,6 +72,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '1',
             'image' => 'product-11',
+            'related_to' => 'men',
             'price' => '1200.00'
         ]);
         Products::create([
@@ -74,6 +81,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '0',
             'image' => 'product-03',
+            'related_to' => 'men',
             'price' => '900.50'
         ]);
         Products::create([
@@ -82,6 +90,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '1',
             'image' => 'product-09',
+            'related_to' => 'footwear',
             'price' => '3000.50'
         ]);
         Products::create([
@@ -90,6 +99,7 @@ class ProductsSeeder extends Seeder
             'add_details' => 'Color: Red, Blue, Purple, Grey, Pink',
             'featured' => '0',
             'image' => 'product-15',
+            'related_to' => 'wristwear',
             'price' => '5000.00'
         ]);
     }

@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', 'ProductsController@index')->name('userIndex');
+//Homepage route
+Route::get('/', 'HomepageController@index')->name('userIndex');
+
+//Shop Products Route
+Route::resource('shop', 'ShopController');
 
 Route::get('/about', function(){
     return view('users.about');
@@ -21,6 +25,7 @@ Route::get('/contact', function(){
     return view('users.contact');
 })->name('userContact');
 
+/*
 Route::get('/products', function(){
     return view('users.products');
 })->name('userProducts');
@@ -28,7 +33,7 @@ Route::get('/products', function(){
 Route::get('/products/details', function(){
     return view('users.product-details');
 })->name('userProductDetails');
-
+*/
 Route::get('/cart', function(){
     return view('users.cart');
 })->name('userCart');
@@ -41,4 +46,4 @@ Route::get('/blog/details', function(){
     return view('users.blog-details');
 })->name('userBlogDetails');
 
-Route::get('/sample', 'ProductsController@index')->name('samplepage');
+Route::get('/sample', 'HomepageController@index')->name('samplepage');

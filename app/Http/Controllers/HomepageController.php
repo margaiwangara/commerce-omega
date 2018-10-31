@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Products;
 
-class ProductsController extends Controller
+class HomepageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -20,5 +19,5 @@ class ProductsController extends Controller
         return view('users.index')->with(['new_arrivals' => $new_arrivals,'featured' => $featured]);
     }
 
-   
+    
 }

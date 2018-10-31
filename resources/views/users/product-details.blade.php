@@ -17,7 +17,7 @@
 			</a>
 
 			<span class="stext-109 cl4">
-				Lightweight Jacket
+				{{ $product->name }}
 			</span>
 		</div>
 	</div>
@@ -71,18 +71,18 @@
 				<div class="col-md-6 col-lg-5 p-b-30">
 					<div class="p-r-50 p-t-5 p-lr-0-lg">
 						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
-							Lightweight Jacket
+							{{ $product->name }}
 						</h4>
 
 						<span class="mtext-106 cl2">
-							$58.79
+							${{ $product->price }}
 						</span>
 
 						<p class="stext-102 cl3 p-t-23">
-							Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.
+							{{ $product->description }}
 						</p>
 						
-						<!--  -->
+						{{--  --}}
 						<div class="p-t-33">
 							<div class="flex-w flex-r-m p-b-10">
 								<div class="size-203 flex-c-m respon6">
@@ -143,7 +143,7 @@
 							</div>	
 						</div>
 
-						<!--  -->
+						{{--  --}}
 						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
 							<div class="flex-m bor9 p-r-10 m-r-11">
 								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
@@ -168,9 +168,9 @@
 			</div>
 
 			<div class="bor10 m-t-50 p-t-43 p-b-40">
-				<!-- Tab01 -->
+				{{-- Tab01 --}}
 				<div class="tab01">
-					<!-- Nav tabs -->
+					{{-- Nav tabs --}}
 					<ul class="nav nav-tabs" role="tablist">
 						<li class="nav-item p-b-10">
 							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
@@ -185,9 +185,9 @@
 						</li>
 					</ul>
 
-					<!-- Tab panes -->
+					{{-- Tab panes --}}
 					<div class="tab-content p-t-43">
-						<!-- - -->
+						{{-- - --}}
 						<div class="tab-pane fade show active" id="description" role="tabpanel">
 							<div class="how-pos2 p-lr-15-md">
 								<p class="stext-102 cl6">
@@ -498,7 +498,7 @@
 						<!-- Block2 -->
 						<div class="block2">
 							<div class="block2-pic hov-img0">
-								<img src="{{ asset('images/product-05.jpg') }}" alt="IMG-PRODUCT">
+								<img src="{{ asset('images/$product->image.jpg') }}" alt="{{ $product->name }}">
 
 								<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View

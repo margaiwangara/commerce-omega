@@ -26,7 +26,7 @@
                         </li>
 
                         <li>
-                            <a href="{{ route('userProducts') }}">Shop</a>
+                            <a href="{{ route('shop.index') }}">Shop</a>
                         </li>
                         {{--
                             <li class="label1" data-label1="hot">
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
 
-                <!-- Icon header -->
+                {{-- Icon header --}}
                 <div class="wrap-icon-header flex-w flex-r-m h-full">
                     <div class="flex-c-m h-full p-r-24">
                         <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search">
@@ -78,14 +78,14 @@
         </div>
     </div>
 
-    <!-- Header Mobile -->
+    {{-- Header Mobile --}}
     <div class="wrap-header-mobile">
-        <!-- Logo moblie -->
+        {{-- Logo moblie --}}
         <div class="logo-mobile">
             <a href="index.html"><img src="{{ asset('images/icons/logo-01.png') }}" alt="IMG-LOGO"></a>
         </div>
 
-        <!-- Icon header -->
+        {{-- Icon header --}}
         <div class="wrap-icon-header flex-w flex-r-m h-full m-r-15">
             <div class="flex-c-m h-full p-r-10">
                 <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search">
@@ -100,7 +100,7 @@
             </div>
         </div>
 
-        <!-- Button show menu -->
+        {{-- Button show menu --}}
         <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
             <span class="hamburger-box">
                     <span class="hamburger-inner"></span>
@@ -109,7 +109,7 @@
     </div>
 
 
-    <!-- Menu Mobile -->
+    {{-- Menu Mobile --}}
     <div class="menu-mobile">
         <ul class="main-menu-m">
             <li>
@@ -146,7 +146,7 @@
         </ul>
     </div>
 
-    <!-- Modal Search -->
+    {{-- Modal Search --}}
     <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
         <div class="container-search-header">
             <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
