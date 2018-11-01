@@ -48,9 +48,12 @@ class ShopController extends Controller
      */
     public function show($id)
     {
+        //product data
         $product = Products::find($id);
 
-        return view('users.product-details')->with('product',$product);
+        //related product
+        $related = Products::where('id','<>',$id)->where('related_to',$product->related_to)->orderBy('created_at','desc')->take(8)->get();
+        return view('users.product-details')->with(['product' => $product,'related' => $related]);
     }
 
     /**

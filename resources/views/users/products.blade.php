@@ -1,6 +1,6 @@
 @extends('users.layouts.app')
 
-@section('title', 'Products')
+@section('title', 'Shop')
 
 @section('content')
 	{{-- Product --}}
