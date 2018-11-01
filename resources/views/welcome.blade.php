@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Sample Laravel App in another branch
                 </div>
 
                 <div class="links">
