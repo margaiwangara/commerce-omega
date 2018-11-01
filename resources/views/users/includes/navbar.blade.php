@@ -57,8 +57,8 @@
                         </div>
                     {{--}}
                     <div class="flex-c-m h-full p-l-18 p-r-25 bor5">
-                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="0">
-                            <a href="{{ route('userCart') }}"><i class="zmdi zmdi-shopping-cart"></i></a>
+                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="{{ Cart::count() }}">
+                            <i class="zmdi zmdi-shopping-cart"></i>
                         </div>
                     </div>
                     
@@ -83,7 +83,7 @@
     <div class="wrap-header-mobile">
         {{-- Logo moblie --}}
         <div class="logo-mobile">
-            <a href="index.html"><img src="{{ asset('images/icons/logo-01.png') }}" alt="IMG-LOGO"></a>
+            <a href="{{ route('userIndex')}}"><img src="{{ asset('images/icons/logo-01.png') }}" alt="IMG-LOGO"></a>
         </div>
 
         {{-- Icon header --}}
@@ -95,7 +95,7 @@
             </div>
 
             <div class="flex-c-m h-full p-lr-10 bor5">
-                <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="2">
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="{{ Cart::count() == 0?'':Cart::count() }}">
                     <i class="zmdi zmdi-shopping-cart"></i>
                 </div>
             </div>
