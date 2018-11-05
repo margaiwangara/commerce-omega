@@ -22,6 +22,9 @@ Route::resource('shop', 'ShopController');
 //Cart Products Route
 Route::resource('cart', 'CartController');
 
+//Wishlist
+Route::resource('wishlist', 'WishlistController');
+
 Route::get('/about', function(){
     return view('users.about');
 })->name('userAbout');
@@ -29,6 +32,7 @@ Route::get('/about', function(){
 Route::get('/contact', function(){
     return view('users.contact');
 })->name('userContact');
+
 
 //empty cart
 Route::get('empty', function(){

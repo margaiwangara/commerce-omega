@@ -141,9 +141,15 @@
 										<input type="hidden" name="id" value="{{ $product->id }}"/>
 										<input type="hidden" name="name" value="{{ $product->name }}"/>
 										<input type="hidden" name="price" value="{{ $product->price }}" />
-										<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
-											Add to cart
-										</button>
+										<div class="btn-group">
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to cart
+											</button>&nbsp;
+											<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Add to wishlist
+											</button>
+										</div>
+										
 									</form>
 								</div>
 							</div>	
